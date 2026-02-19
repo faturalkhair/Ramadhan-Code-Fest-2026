@@ -21,7 +21,8 @@ Jika waktu Isya sudah lewat, akan menampilkan **Next Imsak** dari hari berikutny
 2. Clone repository:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/IMPHNEN/Ramadhan-Code-Fest-2026.git
+
 cd Ramadhan-Code-Fest-2026/sholat
 ```
 
