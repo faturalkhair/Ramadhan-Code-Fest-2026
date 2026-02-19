@@ -4,3 +4,6 @@
 [submodule "malasfetch"]
         path = malasfetch
         url = https://github.com/broman0x/malasfetch.git
+[submodule "Sholat-CLI"]
+	path = Sholat-CLI
+	url = https://github.com/Kechenk/Sholat-CLI.git
