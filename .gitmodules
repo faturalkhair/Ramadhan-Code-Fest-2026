@@ -1,11 +1,36 @@
 [submodule "InternetGrounding"]
-	path = InternetGrounding
-	url = https://github.com/suryami62/InternetGrounding.git
-[submodule "personal-development-tracker"]
-	path = personal-development-tracker
-	url = https://github.com/cds-id/pdt.git
         path = InternetGrounding
         url = https://github.com/suryami62/InternetGrounding.git
+[submodule "personal-development-tracker"]
+        path = personal-development-tracker
+        url = https://github.com/cds-id/pdt.git
 [submodule "malasfetch"]
         path = malasfetch
         url = https://github.com/broman0x/malasfetch.git
+[submodule "gamelaneka"]
+        path = gamelaneka
+        url = https://github.com/dendik-creation/gamelaneka
+[submodule "YukPerpus"]
+        path = YukPerpus
+        url = https://github.com/Gustyx-Power/YukPerpus.git
+[submodule "Xtra-Kernel-Manager"]
+        path = Xtra-Kernel-Manager
+        url = https://github.com/Gustyx-Power/Xtra-Kernel-Manager.git
+[submodule "RouterSet-Mobile-Apps"]
+        path = RouterSet-Mobile-Apps
+        url = https://github.com/Gustyx-Power/RouterSet-Mobile-Apps.git
+[submodule "XChatAi"]
+        path = XChatAi
+        url = https://github.com/Gustyx-Power/XChatAi.git
+[submodule "XArchiver"]
+        path = XArchiver
+        url = https://github.com/Gustyx-Power/XArchiver.git
+[submodule "AURA-Terminal"]
+        path = AURA-Terminal
+        url = https://github.com/Gustyx-Power/AURA-Terminal.git
+[submodule "Topsis-Website"]
+        path = Topsis-Website
+        url = https://github.com/Gustyx-Power/Topsis-Website.git
+[submodule "Ai-On-TelegramBot"]
+        path = Ai-On-TelegramBot
+        url = https://github.com/Gustyx-Power/Ai-On-TelegramBot.git
