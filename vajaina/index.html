@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Secure Calculator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>
-        tes
-    </p>
+
+  <!-- LOGIN PAGE -->
+<div id="loginPage" class="page active">
+  <div class="card">
+    <h2>Login</h2>
+
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+
+    <p id="loginError"></p>
+  </div>
+</div>
+
+  <!-- CALCULATOR PAGE -->
+  <div id="calculatorPage" class="page">
+    <div class="card">
+      <div class="top-bar">
+        <h2>Kalkulator 2077</h2>
+        <button id="logoutBtn" class="logout">Logout</button>
+      </div>
+
+      <input type="text" id="display" disabled>
+
+      <div class="buttons">
+        <button data-value="C" class="operator">C</button>
+        <button data-value="/" class="operator">÷</button>
+        <button data-value="*" class="operator">×</button>
+        <button data-value="-" class="operator">−</button>
+
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="+" class="operator">+</button>
+
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="=" class="equal">=</button>
+
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="0" class="zero">0</button>
+
+        <button data-value=".">.</button>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
 </body>
 </html>
